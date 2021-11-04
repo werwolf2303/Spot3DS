@@ -1,14 +1,20 @@
 # Spot3DS
 Listen to music on the nintendo 3ds (Only hacked devices)
-
-[ x ] Graphical keyboard with "Search for video"
 <br>
-[   ] Implementing ffmpeg for video to mp3
+/ = Half implemented
 <br>
-[   ] Download video or mp3 to the sdcard
+x = complete implemented
 <br>
-[   ] Play video or mp3
 <br>
-[   ] Artwork for banner(3d)
+<br>
+[_/_] Audio opus
+<br>
+[   ] Graphical keyboard with "Search for song"
+<br>
+[   ] Implementing ffmpeg for video to opus
+<br>
+[   ] Download opus to the sdcard(Networking)
+<br>
+[ / ] Artwork for banner(2d)
 <br>
 [   ] .cia file
