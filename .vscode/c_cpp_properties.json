@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "3DS",
+            "forcedInclude": [
+                "${workspaceFolder}\\include\\vscode_fix.h"
+            ],
+            "includePath": [
+                "${workspaceFolder}",
+                "${workspaceFolder}\\libs\\**",
+                "${workspaceFolder}\\include\\**",
+                "C:\\devkitPro\\libctru\\include\\**",
+                "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                "C:\\devkitPro\\portlibs\\3ds\\include\\**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "_UNICODE",
+                "WIN32",
+                "ARM7",
+                "ARM9"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${workspaceFolder}\\libs\\**",
+                    "${workspaceFolder}\\include\\**",
+                    "C:\\devkitPro\\libctru\\include\\**",
+                    "C:\\devkitPro\\devkitARM\\arm-none-eabi\\include\\**",
+                    "C:\\devkitPro\\portlibs\\3ds\\include\\**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:\\devkitPro\\devkitARM\\bin\\arm-none-eabi-g++.exe"
+        }
+    ],
+    "version": 4
+}
