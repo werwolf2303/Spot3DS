@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -140,40 +139,3 @@ int main(int argc, char* argv[])
 	gfxExit();
 	return 0;
 }
-=======
-#include <3ds.h>
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <fstream>
-#include <cstdio>
-u32 __stacksize__ =0x40000;
-
-
-int main()
-{
-	gfxInitDefault();
-	menu();
-	consoleSelect(&top);
-	hidInit();
-	Result ret;
-	httpcInit(0x1000);
-	while (aptMainLoop()) {
-
-		hidScanInput();
-		hidTouchRead(&touch);
-
-        u32 kDown=hidKeysDown();
-		if (kDown & KEY_START) {
-			break;
-		}
-		gfxFlushBuffers();
-		gspWaitForVBlank();
-		gfxSwapBuffers();
-	}
-httpcExit();	
-hidExit();
-gfxExit();
-return 0;
-}
->>>>>>> 2f3f300e36e6c7dccaab27cde856393f4c4d782c
