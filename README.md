@@ -7,7 +7,7 @@ x = complete implemented
 <br>
 <br>
 <br>
-[_/_] Audio opus
+[/] Audio opus
 <br>
 [   ] Graphical keyboard with "Search for song"
 <br>
@@ -15,6 +15,6 @@ x = complete implemented
 <br>
 [   ] Download opus to the sdcard(Networking)
 <br>
-[ / ] Artwork for banner(2d)
+[/] Artwork for banner(2d)
 <br>
 [   ] .cia file
